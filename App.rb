@@ -81,3 +81,21 @@ puts "Enter another number to add:"
 number_2 = gets.chomp.to_i # This will read another line of input from the user, convert it to an integer, and store it in the variable number_2.
 puts "You entered the numbers: #{number_1} and #{number_2}"
 puts "The sum is: #{number_1 + number_2}"
+
+# Arrays
+
+lucky_numbers = [4, 8, "fifteen", 16, 23, 42]
+
+puts lucky_numbers[0] # This will output the first element of the array.
+puts lucky_numbers[2] # This will output the third element of the array.
+puts lucky_numbers[-1] # This will output the last element of the array.
+
+puts lucky_numbers.length # This will output the length of the array, which is 6.
+
+puts lucky_numbers[2,3] # This will output a sub-array starting from index 2 with a length of 3, resulting in ["fifteen", 16, 23].
+
+puts lucky_numbers[2..4] # This will output a sub-array from index 2 to index 4, resulting in ["fifteen", 16, 23]. 
+
+# N Dimensional Arrays
+matrix = [[1, 2, 3], [4, 5, 6]]
+puts matrix[0][1] # This will output the element at row 0, column 1 of the matrix, which is 2.
