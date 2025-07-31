@@ -99,3 +99,4 @@ puts lucky_numbers[2..4] # This will output a sub-array from index 2 to index 4,
 # N Dimensional Arrays
 matrix = [[1, 2, 3], [4, 5, 6]]
 puts matrix[0][1] # This will output the element at row 0, column 1 of the matrix, which is 2.
+puts matrix[0][0] # This will output the element at row 0, column 0 of the matrix, which is 1.
